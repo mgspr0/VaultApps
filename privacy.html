@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Privacy Policy | Your Website</title>
+  <title>Privacy Policy | RateVault</title>
 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
@@ -11,9 +11,9 @@
 <body class="bg-light">
   <nav class="navbar navbar-expand-lg bg-white border-bottom">
     <div class="container">
-      <a class="navbar-brand fw-bold" href="index.html">Your Website</a>
+      <a class="navbar-brand fw-bold" href="index.html">Vault Apps</a>
 
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
 
@@ -23,7 +23,7 @@
             <a class="nav-link" href="index.html">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="privacy.html">Privacy Policy</a>
+            <a class="nav-link active" aria-current="page" href="privacy.html">Privacy Policy</a>
           </li>
         </ul>
       </div>
@@ -33,51 +33,164 @@
   <main class="py-5">
     <div class="container">
       <div class="row justify-content-center">
-        <div class="col-lg-8">
-          <div class="card border-0 shadow-sm">
+        <div class="col-lg-9 col-xl-8">
+          <article class="card border-0 shadow-sm">
             <div class="card-body p-4 p-md-5">
-              <span class="badge text-bg-primary mb-3">Privacy</span>
+              <span class="badge text-bg-primary mb-3">RateVault</span>
               <h1 class="display-6 fw-bold mb-3">Privacy Policy</h1>
-              <p class="text-secondary">Last updated: 11 May 2026</p>
+              <p class="lead text-secondary mb-1">
+                RateVault is an offline-enabled currency converter by VaultApps.
+              </p>
+              <p class="text-secondary mb-0">Effective date: May 11, 2026</p>
 
               <hr class="my-4">
 
-              <h2 class="h4 fw-bold">Overview</h2>
-              <p>
-                This privacy policy explains how this website handles information. This is a simple static website
-                and is designed to collect as little personal information as possible.
-              </p>
+              <section class="mb-4">
+                <h2 class="h4 fw-bold">Summary</h2>
+                <p>
+                  RateVault does not require an account, does not collect personal information, does not sell
+                  personal information, and does not include advertising, analytics, or crash-reporting SDKs.
+                </p>
+                <p class="mb-0">
+                  The app uses the internet only to download exchange-rate data and to open an optional external
+                  support link.
+                </p>
+              </section>
 
-              <h2 class="h4 fw-bold mt-4">Information We Collect</h2>
-              <p>
-                This website does not intentionally collect personal information from visitors.
-              </p>
+              <section class="mb-4">
+                <h2 class="h4 fw-bold">Information the App Handles</h2>
+                <p>
+                  RateVault processes the amounts you type into the converter only on your device. Entered amounts
+                  are used to calculate conversions in the app interface and are not saved by RateVault or sent to
+                  VaultApps.
+                </p>
+                <p>RateVault saves the following non-personal app data locally on your device:</p>
+                <ul class="list-group list-group-flush mb-3">
+                  <li class="list-group-item px-0">Cached exchange-rate data.</li>
+                  <li class="list-group-item px-0">The time the rates were last updated.</li>
+                  <li class="list-group-item px-0">Your selected currency list and order.</li>
+                  <li class="list-group-item px-0">Your theme preference.</li>
+                </ul>
+                <p class="mb-0">
+                  This local data is used to make the app work offline and remember your preferences. VaultApps does
+                  not receive this local data.
+                </p>
+              </section>
 
-              <h2 class="h4 fw-bold mt-4">Cookies</h2>
-              <p>
-                This website does not use cookies for tracking, advertising, or analytics.
-              </p>
+              <section class="mb-4">
+                <h2 class="h4 fw-bold">Exchange-Rate Updates</h2>
+                <p>To update rates, RateVault sends a request to ExchangeRate-API's open endpoint at:</p>
+                <p>
+                  <a href="https://open.er-api.com/v6/latest/MUR" class="link-primary text-break">
+                    https://open.er-api.com/v6/latest/MUR
+                  </a>
+                </p>
+                <p>
+                  The app requests exchange rates only. It does not include your entered amounts, selected currencies,
+                  name, email address, account details, location, contacts, or any app-specific user identifier in
+                  this request.
+                </p>
+                <p class="mb-0">
+                  As with any internet request, the exchange-rate provider and network intermediaries may receive
+                  technical information such as your IP address, request time, and device or browser information.
+                  ExchangeRate-API is a service of AYR Tech (Pty) Ltd. Their terms include privacy information at
+                  <a href="https://www.exchangerate-api.com/terms" class="link-primary text-break">https://www.exchangerate-api.com/terms</a>.
+                </p>
+              </section>
 
-              <h2 class="h4 fw-bold mt-4">Third-Party Services</h2>
-              <p>
-                This website uses Bootstrap files loaded from a third-party CDN. Your browser may make a request
-                to that CDN when loading the website.
-              </p>
+              <section class="mb-4">
+                <h2 class="h4 fw-bold">Optional Ko-fi Link</h2>
+                <p>
+                  RateVault includes an optional "Buy me a coffee" link that opens Ko-fi in your browser or another
+                  external app:
+                </p>
+                <p>
+                  <a href="https://www.ko-fi.com/vaultapps" class="link-primary text-break">
+                    https://www.ko-fi.com/vaultapps
+                  </a>
+                </p>
+                <p class="mb-0">
+                  If you open that link, you leave RateVault. Ko-fi and any payment providers you choose to use may
+                  collect information according to their own policies. Ko-fi's privacy policy is available at
+                  <a href="https://more.ko-fi.com/privacy" class="link-primary text-break">https://more.ko-fi.com/privacy</a>.
+                  RateVault does not collect payment details.
+                </p>
+              </section>
 
-              <h2 class="h4 fw-bold mt-4">Contact</h2>
-              <p>
-                If you have questions about this privacy policy, you can contact us at:
-              </p>
+              <section class="mb-4">
+                <h2 class="h4 fw-bold">Permissions</h2>
+                <p class="mb-0">
+                  On Android, RateVault requests internet access so it can download exchange rates and open external
+                  links. The app does not request access to sensitive device features such as location, camera,
+                  microphone, photos, contacts, or calendar.
+                </p>
+              </section>
 
-              <p>
-                <a href="mailto:hello@example.com" class="btn btn-outline-primary">hello@example.com</a>
-              </p>
+              <section class="mb-4">
+                <h2 class="h4 fw-bold">Data Sharing</h2>
+                <p>
+                  VaultApps does not sell, rent, or share personal information from RateVault because RateVault does
+                  not collect personal information.
+                </p>
+                <p class="mb-0">
+                  Technical information may be processed by third-party services when the app fetches exchange rates
+                  or when you open an external link, as described above.
+                </p>
+              </section>
+
+              <section class="mb-4">
+                <h2 class="h4 fw-bold">Data Retention and Deletion</h2>
+                <p>
+                  The local app data listed in this policy remains on your device until it is replaced by newer app
+                  data, cleared through your device settings, or removed when you uninstall the app.
+                </p>
+                <p class="mb-0">
+                  You can delete RateVault's local data by clearing the app's storage in your device settings or by
+                  uninstalling the app.
+                </p>
+              </section>
+
+              <section class="mb-4">
+                <h2 class="h4 fw-bold">Children's Privacy</h2>
+                <p class="mb-0">
+                  RateVault is a general-purpose utility app and does not knowingly collect personal information from
+                  children.
+                </p>
+              </section>
+
+              <section class="mb-4">
+                <h2 class="h4 fw-bold">Security</h2>
+                <p class="mb-0">
+                  RateVault keeps its app data on your device using the storage mechanisms provided by your operating
+                  system. No method of electronic storage or transmission is completely secure, but the app is designed
+                  to avoid collecting personal information in the first place.
+                </p>
+              </section>
+
+              <section class="mb-4">
+                <h2 class="h4 fw-bold">Changes to This Policy</h2>
+                <p class="mb-0">
+                  VaultApps may update this policy if RateVault's features, data practices, or third-party services
+                  change. The updated policy will include a new effective date.
+                </p>
+              </section>
+
+              <section>
+                <h2 class="h4 fw-bold">Contact</h2>
+                <p>
+                  For privacy questions about RateVault, contact VaultApps through the app store listing where you
+                  downloaded the app or via email:
+                </p>
+                <p class="mb-0">
+                  <a href="mailto:support@vaultapps.org" class="btn btn-primary">support@vaultapps.org</a>
+                </p>
+              </section>
 
               <hr class="my-4">
 
-              <a href="index.html" class="btn btn-primary">Back to Home</a>
+              <a href="index.html" class="btn btn-outline-secondary">Back to Home</a>
             </div>
-          </div>
+          </article>
         </div>
       </div>
     </div>
@@ -85,7 +198,7 @@
 
   <footer class="py-4">
     <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center gap-2">
-      <p class="text-secondary mb-0">&copy; 2026 Your Website. All rights reserved.</p>
+      <p class="text-secondary mb-0">&copy; 2026 VaultApps. All rights reserved.</p>
       <a href="index.html" class="text-secondary text-decoration-none">Home</a>
     </div>
   </footer>
