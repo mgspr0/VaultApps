@@ -41,79 +41,113 @@
               <p class="lead text-secondary mb-1">
                 RateVault is an offline-enabled currency converter by VaultApps.
               </p>
-              <p class="text-secondary mb-0">Effective date: May 11, 2026</p>
+              <p class="text-secondary mb-0">Effective date: June 20, 2026</p>
 
               <hr class="my-4">
 
               <section class="mb-4">
                 <h2 class="h4 fw-bold">Summary</h2>
                 <p>
-                  RateVault does not require an account, does not collect personal information, does not sell
-                  personal information, and does not include advertising, analytics, or crash-reporting SDKs.
-                </p>
-                <p class="mb-0">
-                  The app uses the internet only to download exchange-rate data and to open an optional external
-                  support link.
+                  RateVault does not require an account, does not show ads, does not use analytics, and does not
+                  track you across apps or websites. The app does not access your location, contacts, camera,
+                  microphone, photos, calendar, files, or device advertising ID.
                 </p>
               </section>
 
               <section class="mb-4">
-                <h2 class="h4 fw-bold">Information the App Handles</h2>
+                <h2 class="h4 fw-bold">Data Stored on Your Device</h2>
                 <p>
-                  RateVault processes the amounts you type into the converter only on your device. Entered amounts
-                  are used to calculate conversions in the app interface and are not saved by RateVault or sent to
-                  VaultApps.
+                  RateVault stores a small amount of app data locally on your device so the converter can work
+                  offline and remember your preferences:
                 </p>
-                <p>RateVault saves the following non-personal app data locally on your device:</p>
                 <ul class="list-group list-group-flush mb-3">
-                  <li class="list-group-item px-0">Cached exchange-rate data.</li>
-                  <li class="list-group-item px-0">The time the rates were last updated.</li>
-                  <li class="list-group-item px-0">Your selected currency list and order.</li>
+                  <li class="list-group-item px-0">Cached exchange rates, the provider-published rate date, and the last fetch time.</li>
+                  <li class="list-group-item px-0">Your selected currency cards and their order.</li>
                   <li class="list-group-item px-0">Your theme preference.</li>
+                  <li class="list-group-item px-0">Whether you have completed or skipped the introductory walkthrough.</li>
                 </ul>
                 <p class="mb-0">
-                  This local data is used to make the app work offline and remember your preferences. VaultApps does
-                  not receive this local data.
+                  Local app data remains on your device until it is replaced by updated data, you clear the app's
+                  storage, or you uninstall the app.
+                </p>
+              </section>
+
+              <section class="mb-4">
+                <h2 class="h4 fw-bold">Typed Conversion Amounts</h2>
+                <p class="mb-0">
+                  Amounts typed into the converter are processed on your device and are not sent to VaultApps or the
+                  exchange-rate service. RateVault uses them only to calculate the conversions visible in the app while
+                  you use it. They are not saved to device storage by RateVault and are cleared when you clear the
+                  fields, remove the app from memory, or restart the app.
                 </p>
               </section>
 
               <section class="mb-4">
                 <h2 class="h4 fw-bold">Exchange-Rate Updates</h2>
-                <p>To update rates, RateVault sends a request to ExchangeRate-API's open endpoint at:</p>
+                <p>RateVault uses an internet connection to download exchange rates from:</p>
                 <p>
                   <a href="https://open.er-api.com/v6/latest/MUR" class="link-primary text-break">
                     https://open.er-api.com/v6/latest/MUR
                   </a>
                 </p>
                 <p>
-                  The app requests exchange rates only. It does not include your entered amounts, selected currencies,
-                  name, email address, account details, location, contacts, or any app-specific user identifier in
-                  this request.
+                  These requests are used only to update currency data, and RateVault verifies the response before
+                  saving it locally.
                 </p>
                 <p class="mb-0">
-                  As with any internet request, the exchange-rate provider and network intermediaries may receive
-                  technical information such as your IP address, request time, and device or browser information.
-                  ExchangeRate-API is a service of AYR Tech (Pty) Ltd. Their terms include privacy information at
-                  <a href="https://www.exchangerate-api.com/terms" class="link-primary text-break">https://www.exchangerate-api.com/terms</a>.
+                  RateVault does not send your typed amounts, selected currencies, theme preference, contact details,
+                  account identifiers, or precise location to the exchange-rate service. Like most internet services,
+                  the exchange-rate provider and network operators may receive standard technical information needed
+                  to deliver the response, such as your IP address, request time, and basic device or connection
+                  information.
                 </p>
               </section>
 
               <section class="mb-4">
-                <h2 class="h4 fw-bold">Optional Ko-fi Link</h2>
-                <p>
-                  RateVault includes an optional "Buy me a coffee" link that opens Ko-fi in your browser or another
-                  external app:
+                <h2 class="h4 fw-bold">External Links and Contact</h2>
+                <p>Some actions open services outside RateVault:</p>
+                <ul class="list-group list-group-flush mb-3">
+                  <li class="list-group-item px-0">
+                    Email support or feature suggestions open your email app and prepare a message to
+                    <a href="mailto:support@vaultapps.org" class="link-primary">support@vaultapps.org</a>. If you send
+                    the email, VaultApps receives your email address, message content, and any information you choose
+                    to include.
+                  </li>
+                  <li class="list-group-item px-0">Store ratings open the app store listing.</li>
+                  <li class="list-group-item px-0">Ko-fi support opens Ko-fi in your browser or the Ko-fi app.</li>
+                </ul>
+                <p class="mb-0">
+                  These external services are not controlled by RateVault. Any information you provide to your email
+                  provider, app store, Ko-fi, browser, or payment provider is handled under that service's own privacy
+                  policy. RateVault does not process payments inside the app.
                 </p>
+              </section>
+
+              <section class="mb-4">
+                <h2 class="h4 fw-bold">How Data Is Used</h2>
+                <p>RateVault uses data only to:</p>
+                <ul class="list-group list-group-flush mb-3">
+                  <li class="list-group-item px-0">Provide currency conversions.</li>
+                  <li class="list-group-item px-0">Keep recent exchange rates available offline.</li>
+                  <li class="list-group-item px-0">Remember your app preferences.</li>
+                  <li class="list-group-item px-0">Respond to support messages you choose to send.</li>
+                </ul>
+                <p class="mb-0">
+                  RateVault does not sell personal data and does not share personal data for advertising or tracking.
+                </p>
+              </section>
+
+              <section class="mb-4">
+                <h2 class="h4 fw-bold">Data Retention and Deletion</h2>
                 <p>
-                  <a href="https://www.ko-fi.com/vaultapps" class="link-primary text-break">
-                    https://www.ko-fi.com/vaultapps
-                  </a>
+                  On-device data can be deleted by clearing RateVault's app data through your device settings or by
+                  uninstalling the app. Cached exchange rates may also be replaced automatically when new rates are
+                  downloaded.
                 </p>
                 <p class="mb-0">
-                  If you open that link, you leave RateVault. Ko-fi and any payment providers you choose to use may
-                  collect information according to their own policies. Ko-fi's privacy policy is available at
-                  <a href="https://more.ko-fi.com/privacy" class="link-primary text-break">https://more.ko-fi.com/privacy</a>.
-                  RateVault does not collect payment details.
+                  Support emails are retained only as long as reasonably needed to respond to your request, maintain
+                  support records, or meet legal obligations. You can ask VaultApps to delete support correspondence
+                  by emailing <a href="mailto:support@vaultapps.org" class="link-primary">support@vaultapps.org</a>.
                 </p>
               </section>
 
@@ -121,68 +155,41 @@
                 <h2 class="h4 fw-bold">Permissions</h2>
                 <p class="mb-0">
                   On Android, RateVault requests internet access so it can download exchange rates and open external
-                  links. The app does not request access to sensitive device features such as location, camera,
-                  microphone, photos, contacts, or calendar.
-                </p>
-              </section>
-
-              <section class="mb-4">
-                <h2 class="h4 fw-bold">Data Sharing</h2>
-                <p>
-                  VaultApps does not sell, rent, or share personal information from RateVault because RateVault does
-                  not collect personal information.
-                </p>
-                <p class="mb-0">
-                  Technical information may be processed by third-party services when the app fetches exchange rates
-                  or when you open an external link, as described above.
-                </p>
-              </section>
-
-              <section class="mb-4">
-                <h2 class="h4 fw-bold">Data Retention and Deletion</h2>
-                <p>
-                  The local app data listed in this policy remains on your device until it is replaced by newer app
-                  data, cleared through your device settings, or removed when you uninstall the app.
-                </p>
-                <p class="mb-0">
-                  You can delete RateVault's local data by clearing the app's storage in your device settings or by
-                  uninstalling the app.
-                </p>
-              </section>
-
-              <section class="mb-4">
-                <h2 class="h4 fw-bold">Children's Privacy</h2>
-                <p class="mb-0">
-                  RateVault is a general-purpose utility app and does not knowingly collect personal information from
-                  children.
+                  links. The app does not request sensitive permissions such as location, camera, microphone, photos,
+                  contacts, calendar, SMS, or call log access.
                 </p>
               </section>
 
               <section class="mb-4">
                 <h2 class="h4 fw-bold">Security</h2>
                 <p class="mb-0">
-                  RateVault keeps its app data on your device using the storage mechanisms provided by your operating
-                  system. No method of electronic storage or transmission is completely secure, but the app is designed
-                  to avoid collecting personal information in the first place.
+                  Exchange-rate updates are requested over HTTPS. Local data is stored using the device's normal app
+                  storage mechanisms. RateVault does not store passwords, payment card details, government identifiers,
+                  or account credentials.
+                </p>
+              </section>
+
+              <section class="mb-4">
+                <h2 class="h4 fw-bold">Children's Privacy</h2>
+                <p class="mb-0">
+                  RateVault is a general-audience utility app and is not directed to children. RateVault does not
+                  knowingly collect personal information from children.
                 </p>
               </section>
 
               <section class="mb-4">
                 <h2 class="h4 fw-bold">Changes to This Policy</h2>
                 <p class="mb-0">
-                  VaultApps may update this policy if RateVault's features, data practices, or third-party services
-                  change. The updated policy will include a new effective date.
+                  VaultApps may update this policy if RateVault's features, data practices, or legal requirements
+                  change. The effective date above will be updated when material changes are made.
                 </p>
               </section>
 
               <section>
                 <h2 class="h4 fw-bold">Contact</h2>
-                <p>
-                  For privacy questions about RateVault, contact VaultApps through the app store listing where you
-                  downloaded the app or via email:
-                </p>
                 <p class="mb-0">
-                  <a href="mailto:support@vaultapps.org" class="btn btn-primary">support@vaultapps.org</a>
+                  For privacy questions or requests, contact VaultApps at
+                  <a href="mailto:support@vaultapps.org" class="link-primary">support@vaultapps.org</a>.
                 </p>
               </section>
 
