@@ -1,0 +1,124 @@
+const CACHE_PREFIX = "ratevault:/rv/:";
+const CACHE_NAME = "ratevault:/rv/:5d97beb309c38eb71ea50664";
+const ASSETS = [{"url":"assets/AssetManifest.bin","sha256":"6fd0e5b2110ad0e0145b6a52ce688f2d345232c676c42c2dca4483198db44e7f"},{"url":"assets/AssetManifest.bin.json","sha256":"41c34031b7282a003de9fa59fd0132549af4144afdbd6e8d931b64967b184da1"},{"url":"assets/FontManifest.json","sha256":"b283507b36b990bec3ebeaf814f68fe7f6bba292c2bc860dc5465688accd1a41"},{"url":"assets/NOTICES","sha256":"e38e32822f01950af739f3ed30d662a112f1cacf948a3f0e44916775ff5c6391"},{"url":"assets/assets/fonts/EMOJI-OFL.txt","sha256":"6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2"},{"url":"assets/assets/fonts/NOTO-OFL.txt","sha256":"0dab92d0544f7b233403f14b84a663bdbfa746982eda629e7f4f9ffe1b036feb"},{"url":"assets/assets/fonts/NotoSans-RateVault.ttf","sha256":"3dc1fe0711e6e906bcfc519d6169aff6df9dc4170a0cacbd3aca6b7f0d9a246a"},{"url":"assets/assets/fonts/NotoSansArabic-RateVault.ttf","sha256":"deb43a7d8e2c0a91f929811f8fd02d9f698366df0bde9fec3b174becd317f238"},{"url":"assets/assets/fonts/NotoSansBengali-RateVault.ttf","sha256":"08e47602abdaf3e2c6721e4a3b7d879c6ec1d5b8b8a7823e4e32b600bd07c963"},{"url":"assets/assets/fonts/NotoSansDevanagari-RateVault.ttf","sha256":"989f2bf5bb9f383a801af362abf928c15be835fc6da8523868860ea5e3a52314"},{"url":"assets/assets/fonts/NotoSansMyanmar-RateVault.ttf","sha256":"bcffd2df5d1f630e3b2843b0f001cd2e5e9bea6a2e5c9f72a9197ad6bc3f8767"},{"url":"assets/assets/fonts/NotoSansThai-RateVault.ttf","sha256":"32f92d394f401597c0a45b7b366d161d2dde8dcd61d6817aaf091d42979d05b9"},{"url":"assets/assets/fonts/OFL.txt","sha256":"061402327a96aadb0bfb694a960ed289ecd38d383e396243831ab81feb109c41"},{"url":"assets/assets/fonts/RateVaultFlags.ttf","sha256":"f62ec4053f8422878c8d9fda805eb0d8fe75b0f1a923cb02c9b29d17925f7095"},{"url":"assets/assets/fonts/Roboto.ttf","sha256":"d7598e12c5dbef095ff8272cfc55da0250bd07fbdecbac8a530b9b277872a134"},{"url":"assets/assets/icons/ratevault_full_logo.png","sha256":"0e2ffe65df18de31286edc1f07bef67717923da6f0e5fcae5b05dbaf42ce3bf9"},{"url":"assets/assets/icons/ratevault_icon.png","sha256":"b4390b6515565f4f495734a25e49d4b559faf4e8d2f3bacf07aa63955b8fca65"},{"url":"assets/fonts/MaterialIcons-Regular.otf","sha256":"00b8728d80dc072af1a99113fb7d30c89179eac894359b90036b5881683ccaf4"},{"url":"assets/shaders/ink_sparkle.frag","sha256":"2dca5ab93d4ec29e963f996f3916320ba60825e9537dfb149a68008c7a16b026"},{"url":"assets/shaders/stretch_effect.frag","sha256":"ab412f07a5b9b50b67a885b24dbe16929738ae28630407d6490c924caf0a3220"},{"url":"canvaskit/canvaskit.js","sha256":"bb559f6080c7d312ac2a912b4abec9f68ff3d3022d4a603c7796b9b31460642b"},{"url":"canvaskit/canvaskit.wasm","sha256":"fbed517a43e82452404446683f00f2e876d835aed84410695759e67b6bb01cd3"},{"url":"favicon.png","sha256":"4b9ff0927e64cf08279804a17f9994a7b132b979131aa4cf6ff05541428967c0"},{"url":"flutter.js","sha256":"2beb1ce6b159c71540aa66030af1d7964b6a92377cc78473745e02f97b74effe"},{"url":"flutter_bootstrap.js","sha256":"477c40758791f19e5e06e61ad34344ee7b100b46ae3654694a8044296a9d6ecb"},{"url":"icons/Icon-192.png","sha256":"ceabe65c64f1f1d8b588d964ba0b7b15b369ebe45eed828600ed275eb927fb32"},{"url":"icons/Icon-512.png","sha256":"e12786b32238515028378464c94163e639245ccd3d001e591f32efc7d7868ad7"},{"url":"icons/Icon-maskable-192.png","sha256":"ceabe65c64f1f1d8b588d964ba0b7b15b369ebe45eed828600ed275eb927fb32"},{"url":"icons/Icon-maskable-512.png","sha256":"e12786b32238515028378464c94163e639245ccd3d001e591f32efc7d7868ad7"},{"url":"index.html","sha256":"d9cbf9b961e3bb0419513376171f3e4700e93cf9502c47998c61e1c5ec03d9dd"},{"url":"main.dart.js","sha256":"16d01a15d4d7c8269c6fbb52924b393d1ee0b3260e303d852ad4d5d7a4f05fb3"},{"url":"manifest.json","sha256":"797575abc096758dc4ed049a9863682d7a4417ba3d67e3d25abf502ad7c33fe7"},{"url":"offline.js","sha256":"41d9eabfa7b262abe20d477d2d813f94ac7dc72341cf62c844c7bb5ee21d78f1"},{"url":"startup.js","sha256":"ac51f00f8294abf37c1fd2456acd95975e59c56d63d97492b60b493a841bc8fd"},{"url":"version.json","sha256":"8d3df04845808c8722c740a8fd92f559cce91b1fa515f29aa8ac6161f3090109"}];
+// CACHE_NAME, CACHE_PREFIX and ASSETS are generated from release file contents.
+const scope = new URL(self.registration.scope);
+const assetUrls = new Map(ASSETS.map(asset => [new URL(asset.url, scope).href, asset]));
+const DOWNLOAD_CONCURRENCY = 4;
+
+async function verified(response, asset) {
+  if (!response || !response.ok || response.redirected) return false;
+  const digest = await crypto.subtle.digest('SHA-256', await response.clone().arrayBuffer());
+  const hash = Array.from(new Uint8Array(digest), byte => byte.toString(16).padStart(2, '0')).join('');
+  return hash === asset.sha256;
+}
+
+async function download(url, asset) {
+  const response = await fetch(new Request(url, { cache: 'no-store', signal: AbortSignal.timeout(30000) }));
+  if (!await verified(response, asset)) throw new Error('Release file unavailable or changed');
+  return response;
+}
+
+// Wait for every in-flight task before rolling back, so no late put recreates
+// a partial release after deletion. Stop assigning work after the first error.
+async function bounded(items, action) {
+  let cursor = 0;
+  let failure;
+  await Promise.all(Array.from({ length: Math.min(DOWNLOAD_CONCURRENCY, items.length) }, async () => {
+    while (!failure && cursor < items.length) {
+      const item = items[cursor++];
+      try { await action(item); } catch (error) { failure = error; }
+    }
+  }));
+  if (failure) throw failure;
+}
+
+self.addEventListener('install', event => {
+  event.waitUntil((async () => {
+    try {
+      const sources = await Promise.all((await caches.keys())
+        .filter(name => name.startsWith(CACHE_PREFIX) && name !== CACHE_NAME)
+        .map(name => caches.open(name)));
+      const cache = await caches.open(CACHE_NAME);
+      await bounded([...assetUrls], async ([url, asset]) => {
+        for (const source of sources) {
+          const previous = await source.match(url);
+          if (await verified(previous, asset)) {
+            await cache.put(url, previous);
+            return;
+          }
+        }
+        await cache.put(url, await download(url, asset));
+      });
+    } catch (error) {
+      await caches.delete(CACHE_NAME);
+      throw error;
+    }
+    // Updates wait until all existing tabs close; never force a mixed release.
+  })());
+});
+
+self.addEventListener('activate', event => {
+  event.waitUntil((async () => {
+    for (const name of await caches.keys()) {
+      if (name.startsWith(CACHE_PREFIX) && name !== CACHE_NAME) await caches.delete(name);
+    }
+    await self.clients.claim();
+  })());
+});
+
+async function complete(cache) {
+  for (const url of assetUrls.keys()) if (!await cache.match(url)) return false;
+  return true;
+}
+
+self.addEventListener('message', event => {
+  if (!['RATEVAULT_STATUS', 'RATEVAULT_REPAIR'].includes(event.data?.type) || !event.ports[0]) return;
+  event.waitUntil((async () => {
+    try {
+      const cache = await caches.open(CACHE_NAME);
+      if (event.data.type === 'RATEVAULT_REPAIR') {
+        await bounded([...assetUrls], async ([url, asset]) => {
+          if (!await cache.match(url)) await cache.put(url, await download(url, asset));
+        });
+      }
+      event.ports[0].postMessage({ complete: await complete(cache) });
+    } catch (_) { event.ports[0].postMessage({ complete: false }); }
+  })());
+});
+
+async function notifyAvailability() {
+  try {
+    for (const client of await self.clients.matchAll({ type: 'window' })) {
+      client.postMessage({ type: 'RATEVAULT_OFFLINE_CHANGED' });
+    }
+  } catch (_) { /* A closing client must not prevent serving a valid file. */ }
+}
+
+self.addEventListener('fetch', event => {
+  const request = event.request;
+  if (request.method !== 'GET') return;
+  const url = new URL(request.url);
+  if (url.origin !== scope.origin || !url.pathname.startsWith(scope.pathname)) return;
+  const key = request.mode === 'navigate' ? new URL('index.html', scope).href : url.href;
+  const asset = assetUrls.get(key);
+  // Rate responses remain outside the application cache.
+  if (!asset) return;
+  event.respondWith((async () => {
+    const cache = await caches.open(CACHE_NAME);
+    const saved = await cache.match(key);
+    if (saved) return saved;
+    try {
+      // An evicted file must still belong to THIS active release, including
+      // navigation's index.html. Never serve a newer, incompatible deployment.
+      const response = await download(key, asset);
+      try { await cache.put(key, response.clone()); } catch (_) { /* usable for this request */ }
+      await notifyAvailability();
+      return response;
+    } catch (_) {
+      await notifyAvailability();
+      return new Response('This version is unavailable. Reconnect and close all RateVault tabs to update.',
+        { status: 503, headers: { 'Content-Type': 'text/plain', 'Cache-Control': 'no-store' } });
+    }
+  })());
+});

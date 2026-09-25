@@ -1,0 +1,2 @@
+# Offline integrity checks require the exact bytes emitted by the release build.
+rv/** -text
