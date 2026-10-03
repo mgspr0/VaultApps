@@ -1,4 +1,30 @@
+# Site-wide security headers. The marketing pages load Bootstrap from jsDelivr
+# (pinned with Subresource Integrity); the RateVault web app under /rv/ replaces
+# the CSP with a stricter policy. Keep the /rv/* block identical to
+# RateVault/Codebase/tool/web_security_headers.txt (deploy_web.ps1 checks it).
+/*
+  Content-Security-Policy: default-src 'self'; script-src 'self' https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net; img-src 'self' data:; font-src 'self' https://cdn.jsdelivr.net; connect-src 'self'; frame-ancestors 'none'; base-uri 'self'; form-action 'none'; object-src 'none'
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: no-referrer
+  Permissions-Policy: camera=(), microphone=(), geolocation=(), payment=(), usb=(), browsing-topics=()
+  X-Frame-Options: DENY
+  Cross-Origin-Opener-Policy: same-origin
+  Strict-Transport-Security: max-age=31536000
+
 /rv/*
+  ! Content-Security-Policy
+  ! X-Content-Type-Options
+  ! Referrer-Policy
+  ! Permissions-Policy
+  ! X-Frame-Options
+  ! Cross-Origin-Opener-Policy
+  Content-Security-Policy: default-src 'self'; script-src 'self' 'wasm-unsafe-eval'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self' data:; connect-src 'self' https://open.er-api.com; worker-src 'self'; manifest-src 'self'; frame-ancestors 'none'; base-uri 'self'; form-action 'none'; object-src 'none'
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: no-referrer
+  Permissions-Policy: camera=(), microphone=(), geolocation=(), payment=(), usb=(), browsing-topics=()
+  X-Frame-Options: DENY
+  Cross-Origin-Opener-Policy: same-origin
   Cache-Control: no-cache
+
 /app/flutter_service_worker.js
   Cache-Control: no-cache
