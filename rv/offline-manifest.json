@@ -1,14 +1,14 @@
 {
-  "revision": "5d97beb309c38eb71ea50664",
+  "revision": "04059042aaee727dbd6e864f",
   "base": "/rv/",
   "assets": [
     {
       "url": "assets/AssetManifest.bin",
-      "sha256": "6fd0e5b2110ad0e0145b6a52ce688f2d345232c676c42c2dca4483198db44e7f"
+      "sha256": "27bd5d67aad495bbbac43dbac433320f062a246b3a2141fedb5097cf8e219e8a"
     },
     {
       "url": "assets/AssetManifest.bin.json",
-      "sha256": "41c34031b7282a003de9fa59fd0132549af4144afdbd6e8d931b64967b184da1"
+      "sha256": "74caac08e4571d64e1d74aa8f58b3bc5dc74b77a3eb71da7859a51584592837c"
     },
     {
       "url": "assets/FontManifest.json",
@@ -16,7 +16,7 @@
     },
     {
       "url": "assets/NOTICES",
-      "sha256": "e38e32822f01950af739f3ed30d662a112f1cacf948a3f0e44916775ff5c6391"
+      "sha256": "0bcd3f88f0dceff9ad641111057d6dfd0899b32030a682d1acdb8c2fe6d82c6c"
     },
     {
       "url": "assets/assets/fonts/EMOJI-OFL.txt",
@@ -52,19 +52,15 @@
     },
     {
       "url": "assets/assets/fonts/OFL.txt",
-      "sha256": "061402327a96aadb0bfb694a960ed289ecd38d383e396243831ab81feb109c41"
+      "sha256": "7d96701533d059cfd4191a85ecfd159e262527abd737eae6d9fb533844c70410"
     },
     {
       "url": "assets/assets/fonts/RateVaultFlags.ttf",
-      "sha256": "f62ec4053f8422878c8d9fda805eb0d8fe75b0f1a923cb02c9b29d17925f7095"
+      "sha256": "6ed69d9c6e38c5d40a957c4aeac14fe01b9ef9f9c4a716631fdfc67a9a2f0b49"
     },
     {
       "url": "assets/assets/fonts/Roboto.ttf",
-      "sha256": "d7598e12c5dbef095ff8272cfc55da0250bd07fbdecbac8a530b9b277872a134"
-    },
-    {
-      "url": "assets/assets/icons/ratevault_full_logo.png",
-      "sha256": "0e2ffe65df18de31286edc1f07bef67717923da6f0e5fcae5b05dbaf42ce3bf9"
+      "sha256": "d7b788411d24e1e019ad81e858b87ab56ee3d1f00772cfed45799d2694b7412b"
     },
     {
       "url": "assets/assets/icons/ratevault_icon.png",
@@ -72,7 +68,7 @@
     },
     {
       "url": "assets/fonts/MaterialIcons-Regular.otf",
-      "sha256": "00b8728d80dc072af1a99113fb7d30c89179eac894359b90036b5881683ccaf4"
+      "sha256": "157afb88c52896373c02e0112ab9363c343f94c2e42bb6a7120ce920b33f712b"
     },
     {
       "url": "assets/shaders/ink_sparkle.frag",
@@ -84,11 +80,23 @@
     },
     {
       "url": "canvaskit/canvaskit.js",
-      "sha256": "bb559f6080c7d312ac2a912b4abec9f68ff3d3022d4a603c7796b9b31460642b"
+      "sha256": "bb559f6080c7d312ac2a912b4abec9f68ff3d3022d4a603c7796b9b31460642b",
+      "group": "full"
     },
     {
       "url": "canvaskit/canvaskit.wasm",
-      "sha256": "fbed517a43e82452404446683f00f2e876d835aed84410695759e67b6bb01cd3"
+      "sha256": "fbed517a43e82452404446683f00f2e876d835aed84410695759e67b6bb01cd3",
+      "group": "full"
+    },
+    {
+      "url": "canvaskit/chromium/canvaskit.js",
+      "sha256": "6018b12bd8ed37e6952eee72d59c1cf7ad707ccdb74a0a45190010f77edd9068",
+      "group": "chromium"
+    },
+    {
+      "url": "canvaskit/chromium/canvaskit.wasm",
+      "sha256": "ae8ff1d858140f7b1300ced3fa89fb8c9dce0a400a0f4f1e11f6dcfb3315fdcf",
+      "group": "chromium"
     },
     {
       "url": "favicon.png",
@@ -100,7 +108,7 @@
     },
     {
       "url": "flutter_bootstrap.js",
-      "sha256": "477c40758791f19e5e06e61ad34344ee7b100b46ae3654694a8044296a9d6ecb"
+      "sha256": "d0f93ae553893eee7f63b18085009c9f4ccc85f945180290fc51af9bae716298"
     },
     {
       "url": "icons/Icon-192.png",
@@ -112,11 +120,11 @@
     },
     {
       "url": "icons/Icon-maskable-192.png",
-      "sha256": "ceabe65c64f1f1d8b588d964ba0b7b15b369ebe45eed828600ed275eb927fb32"
+      "sha256": "a261bb332451756c3353d252c4d1cd0534cd9c5d12bca9424b01ddc706fcb1d6"
     },
     {
       "url": "icons/Icon-maskable-512.png",
-      "sha256": "e12786b32238515028378464c94163e639245ccd3d001e591f32efc7d7868ad7"
+      "sha256": "f970e87d22d711c21097c463552abf4bdcfd7d467e04323be84b9a4033b86e8c"
     },
     {
       "url": "index.html",
@@ -124,23 +132,23 @@
     },
     {
       "url": "main.dart.js",
-      "sha256": "16d01a15d4d7c8269c6fbb52924b393d1ee0b3260e303d852ad4d5d7a4f05fb3"
+      "sha256": "d75fbaf4b063afa735d452416fdf049fff74530f8c914bfd66652c195c1bfba9"
     },
     {
       "url": "manifest.json",
-      "sha256": "797575abc096758dc4ed049a9863682d7a4417ba3d67e3d25abf502ad7c33fe7"
+      "sha256": "b069b6e16bbe5c54a0595f1b0e36acdc38429902e5e0e9f8c46dac189412c144"
     },
     {
       "url": "offline.js",
-      "sha256": "41d9eabfa7b262abe20d477d2d813f94ac7dc72341cf62c844c7bb5ee21d78f1"
+      "sha256": "a6996c472cc8b8bdf2ab86dba5b8206e1af5e48f940e1dc4dd6e16ef9b039753"
     },
     {
       "url": "startup.js",
-      "sha256": "ac51f00f8294abf37c1fd2456acd95975e59c56d63d97492b60b493a841bc8fd"
+      "sha256": "e4bc7af761d513c07d944b4d759b43ecaf1c123c4365d6ff8994c4a64314dbb6"
     },
     {
       "url": "version.json",
-      "sha256": "8d3df04845808c8722c740a8fd92f559cce91b1fa515f29aa8ac6161f3090109"
+      "sha256": "b5aa16d8f3ddbcefb621afae1a2e2b0535a983bec84344d8a9b60ccb5afe9769"
     }
   ]
 }

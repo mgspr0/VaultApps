@@ -3,7 +3,7 @@
     "short_name": "RateVault",
     "start_url": ".",
     "display": "standalone",
-    "background_color": "#EFF7F9",
+    "background_color": "#F5F8F8",
     "theme_color": "#02424D",
     "description": "An offline-enabled currency converter for saved exchange rates and quick multi-currency comparisons.",
     "orientation": "any",

@@ -50,7 +50,9 @@
     busy = true;
     publish('downloading');
     try {
-      const next = await navigator.serviceWorker.register(new URL('ratevault-worker.js', document.baseURI), {
+      const script = new URL('ratevault-worker.js', document.baseURI);
+      if (window.rateVaultCanvasKitVariant === 'chromium') script.searchParams.set('canvaskit', 'chromium');
+      const next = await navigator.serviceWorker.register(script, {
         scope: new URL('./', document.baseURI).pathname, updateViaCache: 'none',
       });
       if (registration !== next) {
