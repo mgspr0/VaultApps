@@ -9,7 +9,7 @@
   Permissions-Policy: camera=(), microphone=(), geolocation=(), payment=(), usb=(), browsing-topics=()
   X-Frame-Options: DENY
   Cross-Origin-Opener-Policy: same-origin
-  Strict-Transport-Security: max-age=31536000
+  Strict-Transport-Security: max-age=31536000; includeSubDomains
 
 /rv/*
   ! Content-Security-Policy
@@ -41,5 +41,8 @@
 /privacy
   Cache-Control: public, max-age=0, must-revalidate, no-transform
 
+# Visitors who installed the old web app at /app still fetch this
+# self-unregistering worker, which removes that app and reloads into the
+# /app -> /rv/ redirect. Keep it, and keep it uncached.
 /app/flutter_service_worker.js
   Cache-Control: no-cache
