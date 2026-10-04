@@ -26,5 +26,20 @@
   Cross-Origin-Opener-Policy: same-origin
   Cache-Control: no-cache
 
+# Serve the HTML pages byte for byte. no-transform stops Cloudflare injecting
+# its bot-detection and analytics scripts, which the CSP blocks anyway and which
+# would break the RateVault offline worker's hash check of the app page
+# (deploy_web.ps1 requires the /rv/ rule). no-transform also turns off
+# compression, so keep it to these small pages.
+/rv/
+  ! Cache-Control
+  Cache-Control: no-cache, no-transform
+
+/
+  Cache-Control: public, max-age=0, must-revalidate, no-transform
+
+/privacy
+  Cache-Control: public, max-age=0, must-revalidate, no-transform
+
 /app/flutter_service_worker.js
   Cache-Control: no-cache
