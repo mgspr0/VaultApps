@@ -1,5 +1,5 @@
 {
-  "revision": "04059042aaee727dbd6e864f",
+  "revision": "69097fc498c399cec1a13d4d",
   "base": "/rv/",
   "assets": [
     {
@@ -132,7 +132,7 @@
     },
     {
       "url": "main.dart.js",
-      "sha256": "d75fbaf4b063afa735d452416fdf049fff74530f8c914bfd66652c195c1bfba9"
+      "sha256": "e575888ff6b99de8b86ff79730736866bd2f707dfa937425dc270a95778fb343"
     },
     {
       "url": "manifest.json",
