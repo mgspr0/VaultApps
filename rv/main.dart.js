@@ -28582,7 +28582,7 @@ this.a=b},
 ez:function ez(a,b){this.a=a
 this.b=b},
 b_p(a,b){var s=B.c.eT(a),r=B.c.eT(b)
-if(s.length===0)return"Build: 2.7.0 (12)"
+if(s.length===0)return"Build: 2.7.0 (13)"
 if(r.length===0)return"Build: "+s
 return"Build: "+s+" ("+r+")"},
 aAU(){var s=0,r=A.K(t.N),q,p=2,o=[],n,m,l,k,j
@@ -28611,7 +28611,7 @@ s=6
 break
 case 3:s=2
 break
-case 6:q="Build: 2.7.0 (12)"
+case 6:q="Build: 2.7.0 (13)"
 s=1
 break
 case 1:return A.I(q,r)
@@ -95757,7 +95757,7 @@ $0(){return this.a.H0(this.b)},
 $S:0}
 A.ak_.prototype={
 $0(){A.aNc()
-var s=B.c.wQ("Build: 2.7.0 (12)","Build: ","")
+var s=B.c.wQ("Build: 2.7.0 (13)","Build: ","")
 A.b1h(new A.bh(B.eO,A.aBY(A.f9(8),A.aHN("assets/icons/ratevault_icon.png",48)),null),"RateVault",s,this.b)
 return null},
 $S:0}
@@ -95775,7 +95775,7 @@ this.d=s
 r=s}return A.aHE(new A.anT(),r,t.N)}}
 A.anT.prototype={
 $2(a,b){var s=null,r=b.b
-if(r==null)r="Build: 2.7.0 (12)"
+if(r==null)r="Build: 2.7.0 (13)"
 return A.bo(r,s,s,s,s,A.R(a).ok.Q,B.bo,s)},
 $S:627}
 A.aBl.prototype={
@@ -101249,7 +101249,7 @@ B.NU=s(["zambia"],t.s)
 B.pt=s(["zimbabwe"],t.s)
 B.Px=new A.bu(B.le,[B.MX,B.KU,B.KW,B.L_,B.K5,B.KY,B.KZ,B.M1,B.L0,B.L2,B.MK,B.L7,B.L6,B.Lg,B.L5,B.Lh,B.La,B.Lf,B.Lc,B.Le,B.L4,B.Lb,B.Ld,B.L8,B.L9,B.Lk,B.IT,B.No,B.pi,B.pi,B.Ke,B.Ln,B.Lp,B.Kw,B.Ls,B.IR,B.K6,B.Lw,B.Lv,B.IO,B.KX,B.Ly,B.LN,B.LP,B.Jh,B.LR,B.JR,B.Kc,B.Ml,B.LV,B.LZ,B.LW,B.LX,B.LT,B.M_,B.LY,B.M0,B.Kf,B.M5,B.Lr,B.M4,B.M6,B.Ma,B.Md,B.IN,B.M9,B.Mc,B.Mb,B.M8,B.Mj,B.Mg,B.Mk,B.Mh,B.Mo,B.Mt,B.Lj,B.Mr,B.Lq,B.NI,B.Ms,B.Lx,B.Mn,B.Mx,B.My,B.KS,B.MA,B.Mz,B.MB,B.MO,B.ML,B.MD,B.Kh,B.MP,B.MM,B.MC,B.MH,B.MI,B.MG,B.ME,B.MJ,B.MF,B.MN,B.MQ,B.MT,B.MS,B.MU,B.MR,B.NE,B.MY,B.N0,B.N2,B.Ky,B.N3,B.N_,B.N4,B.N1,B.N7,B.Nb,B.Nh,B.Nc,B.Nd,B.LS,B.KO,B.Ni,B.Nl,B.Nn,B.Nj,B.JB,B.pj,B.pj,B.Nk,B.Nm,B.K8,B.K1,B.Nq,B.LO,B.Nv,B.Nt,B.Nz,B.Nx,B.Nw,B.Ny,B.MV,B.NA,B.Ns,B.Nu,B.ND,B.NC,B.K7,B.NF,B.NH,B.NM,B.JL,B.NL,B.Ng,B.Mu,B.Ko,B.Jy,B.JY,B.NV,B.Mm,B.NR,B.Ne,B.NU,B.pt,B.pt],t.VJ)
 B.Py=new A.bu(B.le,["UAE Dirham","Afghan Afghani","Albanian Lek","Armenian Dram","Netherlands Antillean Guilder","Angolan Kwanza","Argentine Peso","Australian Dollar","Aruban Florin","Azerbaijani Manat","Bosnia and Herzegovina Convertible Mark","Barbados Dollar","Bangladeshi Taka","Bulgarian Lev","Bahraini Dinar","Burundian Franc","Bermudian Dollar","Brunei Dollar","Bolivian Boliviano","Brazilian Real","Bahamian Dollar","Bhutanese Ngultrum","Botswana Pula","Belarusian Ruble","Belize Dollar","Canadian Dollar","Congolese Franc","Swiss Franc","Chilean Unit of Account","Chilean Peso","Chinese Yuan Offshore","Chinese Yuan","Colombian Peso","Costa Rican Colon","Cuban Peso","Cape Verdean Escudo","Czech Koruna","Djiboutian Franc","Danish Krone","Dominican Peso","Algerian Dinar","Egyptian Pound","Eritrean Nakfa","Ethiopian Birr","Euro","Fijian Dollar","Falkland Islands Pound","Faroese Krona","Pound Sterling","Georgian Lari","Guernsey Pound","Ghanaian Cedi","Gibraltar Pound","Gambian Dalasi","Guinean Franc","Guatemalan Quetzal","Guyanese Dollar","Hong Kong Dollar","Honduran Lempira","Croatian Kuna","Haitian Gourde","Hungarian Forint","Indonesian Rupiah","Israeli New Shekel","Isle of Man Pound","Indian Rupee","Iraqi Dinar","Iranian Rial","Icelandic Krona","Jersey Pound","Jamaican Dollar","Jordanian Dinar","Japanese Yen","Kenyan Shilling","Kyrgyzstani Som","Cambodian Riel","Kiribati Dollar","Comorian Franc","South Korean Won","Kuwaiti Dinar","Cayman Islands Dollar","Kazakhstani Tenge","Lao Kip","Lebanese Pound","Sri Lankan Rupee","Liberian Dollar","Lesotho Loti","Libyan Dinar","Moroccan Dirham","Moldovan Leu","Malagasy Ariary","Macedonian Denar","Myanmar Kyat","Mongolian Tugrik","Macanese Pataca","Mauritanian Ouguiya","Mauritian Rupee","Maldivian Rufiyaa","Malawian Kwacha","Mexican Peso","Malaysian Ringgit","Mozambican Metical","Namibian Dollar","Nigerian Naira","Nicaraguan Cordoba","Norwegian Krone","Nepalese Rupee","New Zealand Dollar","Omani Rial","Panamanian Balboa","Peruvian Sol","Papua New Guinean Kina","Philippine Peso","Pakistani Rupee","Polish Zloty","Paraguayan Guarani","Qatari Riyal","Romanian Leu","Serbian Dinar","Russian Ruble","Rwandan Franc","Saudi Riyal","Solomon Islands Dollar","Seychellois Rupee","Sudanese Pound","Swedish Krona","Singapore Dollar","Saint Helena Pound","Sierra Leonean Leone","Sierra Leonean Leone","Somali Shilling","Surinamese Dollar","South Sudanese Pound","Sao Tome and Principe Dobra","Syrian Pound","Swazi Lilangeni","Thai Baht","Tajikistani Somoni","Turkmenistani Manat","Tunisian Dinar","Tongan Paanga","Turkish Lira","Trinidad and Tobago Dollar","Tuvaluan Dollar","New Taiwan Dollar","Tanzanian Shilling","Ukrainian Hryvnia","Ugandan Shilling","United States Dollar","Uruguayan Peso","Uzbekistani Som","Venezuelan Bolivar","Vietnamese Dong","Vanuatu Vatu","Samoan Tala","Central African CFA Franc","East Caribbean Dollar","Caribbean Guilder","Special Drawing Rights","West African CFA Franc","CFP Franc","Yemeni Rial","South African Rand","Zambian Kwacha","Zimbabwe Gold","Zimbabwean Dollar"],t.li)
-B.vo=new A.bu(B.le,[3.6725,64.906705,81.333182,362.958561,1.79,927.380553,1523.0868,1.438733,1.79,1.699497,1.73825,2,122.945747,1.73825,0.376,3002.602977,1,1.279492,12.034388,5.222334,1,96.374911,14.155132,3.008132,2,1.424002,2309.709077,0.828716,0.024844,982.005858,6.705816,6.714383,3311.925714,456.70663,24,97.998374,21.721265,177.721,6.647039,59.592925,133.860402,52.28469,15,162.838185,0.888752,2.244184,0.756033,6.644098,0.756313,2.602365,0.756033,11.596233,0.756033,74.407237,8792.486743,7.637735,209.20569,7.846892,26.845764,6.696311,130.788247,327.468115,17883.045051,3.054198,0.756033,96.372564,1310.218099,776253.24865,121.776475,0.756033,158.498014,0.709,157.81511,129.560263,87.477021,4053.389755,1.438211,437.237922,1347.389067,0.308774,0.833333,444.076115,22287.303327,89500,330.410801,171.47516,16.658514,6.394321,9.880556,17.784162,4399.686067,54.280014,2096.721708,3636.873725,8.082411,39.963167,47.841597,15.442218,1746.943793,18.213944,4.08426,63.834676,16.658514,1330.635588,36.795866,9.621335,154.199857,1.781371,0.384497,1,3.442651,4.474387,62.607736,276.817029,3.889203,5838.227953,3.64,4.740344,104.212183,83.502601,1478.511152,3.75,7.953138,14.753875,510.50994,10.042202,1.279427,0.756033,24.654462,24654.462165,571.373691,37.746714,5657.078371,21.774454,121.808939,16.658514,33.555074,9.225378,3.50034,2.96609,2.385505,49.134891,6.742441,1.438211,31.859608,2648.201265,44.954615,3902.235756,1,40.293339,11813.002958,871.3689,25953.963716,119.911806,2.740625,582.983896,2.7,1.79,0.739382,582.983896,106.056699,236.354385,16.659088,19.698197,26.7653,26.7653],t.dW)
+B.vo=new A.bu(B.le,[3.6725,64.810756,81.936281,361.925361,1.79,926.184908,1515.8766,1.433149,1.79,1.699108,1.745453,2,123.224135,1.745453,0.376,3003.374621,1,1.280697,11.950434,5.010865,1,96.829384,14.173473,3.042521,2,1.425015,2310.2333,0.830936,0.024758,978.602338,6.693715,6.706851,3236.681829,455.5843,24,98.404428,21.76714,177.721,6.670889,60.523185,134.433753,52.38102,15,161.729361,0.892438,2.25198,0.755895,6.670886,0.755923,2.598914,0.755895,11.812041,0.755895,74.549095,8797.177375,7.632683,208.977989,7.848229,26.81248,6.724057,130.805702,326.114752,17889.063344,3.063406,0.755895,96.829695,1432.489475,1674585.098501,122.077247,0.755895,158.815697,0.709,158.287265,129.711254,87.439461,4049.483766,1.433148,439.049608,1341.69027,0.310482,0.833333,449.907367,22222.239253,89500,330.716303,170.771613,16.539875,6.409988,9.884613,17.843651,4470.852024,54.573615,2096.022642,3619.159532,8.083676,40.097129,47.322292,15.432712,1746.476874,18.304854,4.087459,63.799826,16.539875,1330.995081,36.755327,9.563463,154.927014,1.782233,0.384497,1,3.442249,4.508961,62.872735,276.868026,3.911664,5817.559533,3.64,4.768924,104.754814,84.994885,1478.474273,3.75,7.95628,14.618558,508.524886,9.990571,1.280697,0.755895,24.587682,24587.681848,571.017509,37.639597,5863.490752,21.864676,121.740531,16.539875,33.5671,9.226548,3.499103,3.005017,2.385509,49.333088,6.77317,1.433148,31.959582,2637.2554,44.895432,3994.071225,1,40.053467,11868.219906,876.7976,25855.721426,120.007201,2.741556,585.399478,2.7,1.79,0.738327,585.399478,106.496143,235.966082,16.539966,19.865809,26.6875,26.6875],t.dW)
 B.V6=new A.af(B.aV,!1,!1,!1,!1,B.m)
 B.UD=new A.af(B.aV,!1,!0,!1,!1,B.m)
 B.A9=new A.af(B.aW,!1,!1,!1,!1,B.m)
@@ -103524,9 +103524,9 @@ e=[400*h/(h+27.13),400*g/(g+27.13),400*f/(f+27.13)]
 return new A.amZ(k,(40*e[0]+20*e[1]+e[2])/20*j,j,j,b,1,q,l,A.y7(l,0.25),1.48+p)})
 s($,"b3o","aBs",()=>A.aCj())
 s($,"b5f","aPo",()=>!t.Cm.b(A.b([],t.Z)))
-s($,"b6G","aQd",()=>A.tZ(2026,10,3,0,2,32,0))
-s($,"b6E","aQb",()=>A.tZ(2026,10,3,13,16,58,0))
-s($,"b6F","aQc",()=>A.tZ(2026,10,4,0,22,22,0))
+s($,"b6G","aQd",()=>A.tZ(2026,10,11,0,2,31,0))
+s($,"b6E","aQb",()=>A.tZ(2026,10,11,7,16,21,0))
+s($,"b6F","aQc",()=>A.tZ(2026,10,12,0,14,21,0))
 s($,"b1P","aNq",()=>A.aCj())
 s($,"b70","aBD",()=>{var q,p=[]
 for(q=0;q<166;++q)p.push(new A.e6(B.eX[q]))
