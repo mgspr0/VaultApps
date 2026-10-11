@@ -1,5 +1,5 @@
 {
-  "revision": "9ead0c945bf4267cef8e4ea6",
+  "revision": "d574973a51cebf23481d5c5a",
   "base": "/rv/",
   "assets": [
     {
@@ -132,7 +132,7 @@
     },
     {
       "url": "main.dart.js",
-      "sha256": "e575888ff6b99de8b86ff79730736866bd2f707dfa937425dc270a95778fb343"
+      "sha256": "7429775282b66587896d14db5e7b90c9b8327155ec2eebef9971755574fec23c"
     },
     {
       "url": "manifest.json",
@@ -148,7 +148,7 @@
     },
     {
       "url": "version.json",
-      "sha256": "b5aa16d8f3ddbcefb621afae1a2e2b0535a983bec84344d8a9b60ccb5afe9769"
+      "sha256": "82259781e10f59537f2c3aeccc0f43eb068e55dc06dd958f7f57dbe948a58eb7"
     }
   ]
 }
